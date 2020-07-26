@@ -1,0 +1,62 @@
+.n {
+    border-radius: 20px;
+}
+
+.div-style {
+    margin-top: 4rem;
+    padding: 3rem;
+    background: white;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0.5rem 1rem 0px;
+}
+
+.div-style1 {
+    margin-top: 4rem;
+    padding: 3rem;
+    background: white;
+    border-radius: px 20px 20px 0px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0.5rem 1rem 0px;
+}
+
+h3 {
+    font-weight: bold;
+    color: #44c986;
+}
+
+.text-box {
+    border-radius: 1rem;
+    margin-top: 1rem;
+}
+
+.button-submit {
+    width: 50%;
+    border-radius: 1rem;
+    margin-top: 1rem
+}
+
+// .body-background {
+//     background-image: linear-gradient(to right, #8eb1789f 0%, #9eb8a3 100%);
+// }
+.task-form {
+    background-image: linear-gradient(to right, #c25c189f 0%, #e2d9aefb 100%);
+}
+
+.greeting {
+    background-image: linear-gradient(to right, #39d393cb 0%, #44c96c 100%);
+    z-index: -1;
+}
+
+.main-label {
+    margin: 1rem;
+}
+
+label {
+    font-size: smaller;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 600px) {
+    .greeting {
+        display: none;
+    }
+}

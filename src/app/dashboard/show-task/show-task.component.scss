@@ -1,0 +1,19 @@
+// .custom-control-input:checked~.custom-control-label::before {
+//     color: #fff;
+//     border-color: #2bff00ee;
+//     background-color: #3cff00;
+// }
+.bg-red {
+    background-color: rgba(214, 55, 27, 0.76);
+}
+
+.bg-green {
+    background-color: rgba(97, 231, 19, 0.836);
+}
+
+.custom-custom-checkbox .custom-control-label::before {
+    left: -3.0rem;
+    width: 3.0rem;
+    pointer-events: all;
+    border-radius: .5rem;
+}
